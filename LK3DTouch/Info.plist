@@ -41,5 +41,28 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).First</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>First Action</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>This is the first action</string>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeAdd</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).Second</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Second Action</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>This is second action</string>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypePause</string>
+		</dict>
+	</array>
 </dict>
 </plist>
